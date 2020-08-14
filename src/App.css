@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700);
+.gold{
+  background-color: #de3f53;
+  background-color: #6E6E96;
+  background-color: #171d37;
+  color:#4c577f;
+  color: #b1b2c9;
+  background-color: #262e4c;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app{
+margin-left: auto; 
+margin-right: auto; 
+width: 500px;
+margin-top: 80px;
+text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 
+{ 
+  font-family: 'Roboto', serif, sans-serif;
+  color:#171d37;
+  text-transform:capitalize;
+  font-size : 35px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.inputhead{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.newtask
+{ 
+  
+  background-color: #171d37;
+  outline: none;
+  border: 1px solid #171d37; 
+ width: 80%;
+ padding: 10px 2px;
+  text-align: left ;
+  text-decoration: none;
+  display:block;
+  border-radius:20px;
+  color: #b1b2c9;
+  font-size: 14px;
+  border-bottom-right-radius:0% ;
+  border-top-right-radius: 0%;
+
+ 
+
+}
+.newtask::placeholder{
+  color: #b1b2c9;
+  font-size: 14px;
+  text-align: left;
+    padding-left: 5px;
+}
+.addtask{
+  width: 20%;
+  outline: none;
+  background-color: #de3f53;
+  color: #fff;
+  border-radius: 20px;
+  border-bottom-left-radius:0% ;
+  border-top-left-radius: 0%;
+ 
+ border: 1px solid #de3f53;
+ cursor: pointer;
+}
+.list{
+  background-color: #262e4c;
+  color: #b1b2c9;
+  border: 1px solid #de3f53;
+  margin-top: 40px;
+  margin-bottom: -40px;
+  text-align: center;
+  padding: 10px 5px;
+
+ display: flex;
+  justify-content: space-between;
+}
+.button-delete{ 
+ 
+  width: 20%;
+  outline: none;
+  background-color: #de3f53;
+  color: #fff;
+  border-radius: 20px;
+  border: 1px solid #de3f53;
+  cursor: pointer;
+}
+input[type='checkbox']{
+  background-color: #262e4c;
+  border-radius: 50%;
+  cursor:pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ 
